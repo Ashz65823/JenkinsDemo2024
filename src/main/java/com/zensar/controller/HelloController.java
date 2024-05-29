@@ -23,6 +23,11 @@ public class HelloController {
 	
 	@GetMapping("/welcome")
 	public String start() {
-		return"<h1> Welcome !!!!! </h1>";	
+		return"<h1> Welcome !!!!!</h1>";	
+	}
+	
+	@GetMapping("/gm")
+	public String goodMorning() {
+		return"<h1> Happy Morning !!!!!</h1>";	
 	}
 }
