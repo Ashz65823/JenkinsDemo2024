@@ -20,4 +20,9 @@ public class HelloController {
 	public String sayBye() {
 		return"<h1> Bye....!!! Jenkins ;-) </h1>";	
 	}
+	
+	@GetMapping("/welcome")
+	public String start() {
+		return"<h1> Welcome !!!!! </h1>";	
+	}
 }
