@@ -13,6 +13,11 @@ public class HelloController {
 		return"<h1> Welcome to Jenkins and say Hi.........</h1>";	
 	}
 	
+	@GetMapping("/gm")
+	public String goodMorning() {
+		return"<h1> Happy Morning All !!!!!</h1>";	
+	}
+	
 	@GetMapping("/hello")
 	public String sayHello() {
 		return"<h1> Welcome to Jenkins </h1>";	
@@ -28,8 +33,5 @@ public class HelloController {
 		return"<h1> Welcome !!!!!</h1>";	
 	}
 	
-	@GetMapping("/gm")
-	public String goodMorning() {
-		return"<h1> Happy Morning All !!!!</h1>";	
-	}
+	
 }
