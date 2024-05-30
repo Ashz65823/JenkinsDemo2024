@@ -30,6 +30,6 @@ public class HelloController {
 	
 	@GetMapping("/gm")
 	public String goodMorning() {
-		return"<h1> Happy Morning All !!!!!</h1>";	
+		return"<h1> Happy Morning All !!!!</h1>";	
 	}
 }
