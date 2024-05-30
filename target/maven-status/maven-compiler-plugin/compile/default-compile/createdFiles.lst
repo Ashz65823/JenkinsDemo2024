@@ -1,0 +1,3 @@
+com\zensar\SampleJenkinsProjectApplication.class
+com\zensar\controller\HelloController.class
+com\zensar\ServletInitializer.class
